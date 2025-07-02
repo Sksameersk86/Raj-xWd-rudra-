@@ -59,7 +59,7 @@ module.exports.run = async function ({ Users, Threads, api, event }) {
   ];
   const ratings = ["💘 100%", "💫 99.9%", "🔥 98%", "❤️ 101%", "🌟 97.5%", "👑 96.69%", "🕊️ 100.0%"];
 
-  const header = "✨ Ye jodi likhi hai bhagwan ne ✨\n💢 Kalm tha... Rudra 👑";
+  const header = "✨ Ye jodi likhi hai god ne ✨\n💢 Kalm tha... Raj xwd 👑";
   const bg = backgrounds[Math.floor(Math.random() * backgrounds.length)];
   const shayari = shayaris[Math.floor(Math.random() * shayaris.length)];
   const rating = ratings[Math.floor(Math.random() * ratings.length)];
