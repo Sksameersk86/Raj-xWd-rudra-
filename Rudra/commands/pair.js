@@ -40,7 +40,7 @@ module.exports.run = async function ({ Users, Threads, api, event }) {
   const id2 = candidates[Math.floor(Math.random() * candidates.length)];
   const name2 = await Users.getNameUser(id2);
 
-  // 💫 Stylish elements
+  // 💫 raj xwd elements
   const backgrounds = [
     "https://i.postimg.cc/wjJ29HRB/background1.png",
     "https://i.postimg.cc/zf4Pnshv/background2.png",
@@ -98,7 +98,7 @@ module.exports.run = async function ({ Users, Threads, api, event }) {
 
   // 📨 Send message
   return api.sendMessage({
-    body: `${header}\n━━━━━━━━━━━━━━\n💑 ${name1} ❤️ ${name2}\n${shayari}\n❤️ Compatibility: ${rating}\n━━━━━━━━━━━━━━\n🔱 Powered by Rudra`,
+    body: `${header}\n━━━━━━━━━━━━━━\n💑 ${name1} ❤️ ${name2}\n${shayari}\n❤️ Compatibility: ${rating}\n━━━━━━━━━━━━━━\n🔱 Powered by Raj xwd `,
     mentions: [{ tag: name2, id: id2 }],
     attachment: fs.createReadStream(pathImg)
   }, event.threadID, () => fs.unlinkSync(pathImg), event.messageID);
