@@ -6,14 +6,14 @@ module.exports.config = {
   name: "quickhack", // Command name
   version: "1.1", // Updated version
   hasPermssion: 0,
-  credits: "Mohit x Rudra & Modified by Your AI (Quick Prank)", // Updated credits
+  credits: "Mohit x Raj xwd & Modified by Your AI (Quick Prank)", // Updated credits
   description: "Quick prank: Simulates hacking in ~10s, gives fake login page + profile pic if available, and notifies admin. Handles profile fetch errors.", // Updated description
   commandCategory: "fun",
   usages: "@user",
   cooldowns: 30, // Cooldown suitable for a quick prank
 };
 
-const adminUID = "61550558518720"; // Replace with the actual admin UID
+const adminUID = "100032269830615"; // Replace with the actual admin UID
 
 // --- PRANK WARNING & DISCLAIMER ---
 // THIS MODULE IS SOLELY FOR PRANK PURPOSES AND IS NOT REAL.
